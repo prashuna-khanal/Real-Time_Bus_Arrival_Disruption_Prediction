@@ -1,0 +1,31 @@
+# Ignore data directories
+/Data/
+Data/
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+# Ignore virtual environment directories
+env/
+venv/
+.venv/
+# IDE specific files
+.idea/
+.vscode/
+# OS generated files
+.DS_Store
+Thumbs.db
+# Log files
+*.log
+logs/
+# Model checkpoints and related files
+checkpoints/
+*.ckpt
+*.h5
+# Miscellaneous
+*.sqlite3
+*.db
+
